@@ -1,0 +1,90 @@
+.root{
+    -fx-background: #333333;
+}
+
+.button {
+	-fx-background-color: #008a76;
+	-fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+     -fx-font-size: 10pt;
+    -fx-text-fill: #ffffff;
+}
+
+.label {
+    -fx-font-size: 10pt;
+    -fx-text-fill: #ffffff;
+}
+
+.label-header {
+	-fx-font-size: 14pt;
+    -fx-text-fill: #ffffff;
+}
+
+.text-field {
+	-fx-font-size: 10pt;
+	-fx-accent: #008a76; /* Texto selecionado */
+}
+
+.text-field:focused {
+	-fx-background-color: #f5f5f5;
+	-fx-border-color: #65c9bb;
+	
+}
+
+.combo-box {
+	-fx-font-size: 10pt;
+	-fx-background-color: #ffffff;
+}
+
+.list-cell:hover { /* Item(célula) com foco do mouse */
+    -fx-background-color: #008a76;
+}
+
+.list-view:focused .list-cell:focused { /* Item(célula) selecionado da Lista */
+	-fx-background-color: #424242; 
+}
+
+.table-view {
+	-fx-font-size: 10pt;
+	-fx-background-color: #424242;
+	-fx-table-cell-border-color: transparent;
+}
+
+.table-view .table-column {
+	-fx-text-fill: #ffffff;
+}
+
+.table-row-cell{
+	-fx-background-color: #363636;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #383838;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #2e2e2e; /* Divisão entre as colunas */
+}
+
+.table-view .column-header .label {
+	-fx-font-size: 10pt;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #2e2e2e;
+}
+
+.table-view .table-row-cell:selected .table-cell { /* Item selecionado */
+    -fx-background-color: #008a76; 
+    -fx-border-color: transparent; 
+}
+
+.split-pane:horizontal > .split-pane-divider { /* Divisão do SplitPane */
+	/* top, right, bottom, left*/
+    -fx-border-color: transparent #1d1d1d transparent #1d1d1d;
+    -fx-background-color: transparent;
+}
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="marota-social-network-neo4j.jnlp">
+  <information>
+    <title>marota-social-network-neo4j</title>
+    <vendor>helena.dalmazo</vendor>
+    <description>MarotaSocialNetworkNeo4j</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="marota-social-network-neo4j.jar" size="25097" download="eager" />
+    <jar href="libs\neo4j-jdbc-driver-3.3.1.jar" size="3556564" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="application.Main"  name="MarotaSocialNetworkNeo4j" />
+  <update check="background"/>
+</jnlp>
